@@ -68,7 +68,7 @@ if(encodec=="enc"):
     password=input("enter password\n")
     filenfornew=input("filename (without extension) note:stored in png\n")
     hidedata(filen,message,password,filenfornew)
-    print("successfully done. file saved in: "+os.getcwd()+"/"+filenfornew+".png")
+    print("successfully done. file saved in: "+os.path.join(os.getcwd(),f"{filenfornew}.png"))
 else:
     filen=input("input filename (without extension) note:file taken in png\n")
     password=input("give password for file\n")
