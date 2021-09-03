@@ -29,7 +29,7 @@ install python and git on macos
 
 <code>git clone https://github.com/mayank-xre/pystegocrypto.git</code>
 
-<code>cd pystegnocrypto </code>
+<code>cd pystegocrypto </code>
 
 <code>pip install -r requirements.txt</code>
 
