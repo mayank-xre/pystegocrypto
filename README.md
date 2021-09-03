@@ -43,4 +43,4 @@ To launch the program:
 gui coming soon
 
 # Improvements
-You are always welcome to open pull requests and issues
+You are always welcome to open pull requests and issues.
