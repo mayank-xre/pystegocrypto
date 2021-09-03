@@ -36,7 +36,7 @@ install python and git on macos
 # How to use
 To launch the program:
 
-<code>cd pystegnocrypto</code>
+<code>cd pystegocrypto</code>
 
 <code>python steganography_core.py</code>
 
