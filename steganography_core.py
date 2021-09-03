@@ -5,8 +5,10 @@ from hashlib import md5
 from base64 import urlsafe_b64encode
 import binascii as t
 import os
-os.chdir("/home/mayank/Desktop")
-print(os.getcwd())
+pathtow=input("enter your working directory or press enter to autoselect\n")
+if(len(pathtow)>=1):
+    os.chdir(pathtow)
+print("your selected working directory is: "+os.getcwd())
 def str2bin(message):
     return bin(int(t.hexlify(message),16))[2:]
 def bin2str(bin):
@@ -66,7 +68,7 @@ if(encodec=="enc"):
     password=input("enter password\n")
     filenfornew=input("filename (without extension) note:stored in png\n")
     hidedata(filen,message,password,filenfornew)
-    print("successfully done")
+    print("successfully done. file saved in: "+os.getcwd()+"/"+filenfornew+".png")
 else:
     filen=input("input filename (without extension) note:file taken in png\n")
     password=input("give password for file\n")
