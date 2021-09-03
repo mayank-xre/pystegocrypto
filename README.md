@@ -9,7 +9,7 @@ Follow this steps to install
 
 <code>$ sudo apt install python3-pip</code>
 
-<code>$ cd pystegocrypto && pip3 install requirements.txt</code>
+<code>$ cd pystegocrypto && pip3 install -r requirements.txt</code>
 
 ### windows
 (Not on linux! Install it today)
@@ -20,7 +20,7 @@ open Cmd and write
 
 <code>cd pystegocrypto</code>
 
-<code>pip install requirements.txt</code>
+<code>pip install -r requirements.txt</code>
 
 ### macos
 (Not on linux! Install it today)
@@ -31,7 +31,7 @@ install python and git on macos
 
 <code>cd pystegnocrypto </code>
 
-<code>pip install requirements.txt</code>
+<code>pip install -r requirements.txt</code>
 
 # How to use
 To launch the program:
